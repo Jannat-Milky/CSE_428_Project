@@ -311,4 +311,3 @@ export default function ChallengeResults({ results, challenge, onBackToList }: C
     </div>
   );
 }
-
