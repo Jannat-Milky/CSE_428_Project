@@ -44,7 +44,7 @@ export default function Home() {
 
   const allGames = [
     { id: 1, title: 'Reading Club', description: 'Social reading with friends', category: 'Educational', image: '/images/featured-reading.png', rating: '88', tag: 'Featured', tagColor: 'bg-purple-600', players: '2.3k', link: '/reading-club', isNew: false, isPopular: true },
-    { id: 2, title: 'Math Challenge', description: 'Solve equations, beat the clock', category: 'Math', image: '/images/featured-math.png', rating: '82', tag: 'New', tagColor: 'bg-green-600', players: '1.8k', link: '#', isNew: true, isPopular: false },
+    { id: 2, title: 'Math Challenge', description: 'Solve equations, beat the clock', category: 'Math', image: '/images/featured-math.png', rating: '82', tag: 'New', tagColor: 'bg-green-600', players: '1.8k', link: '/math-challenges', isNew: true, isPopular: false },
     { id: 3, title: 'Memory Match', description: 'Train your brain with pairs', category: 'Memory', image: '/images/featured-memory.png', rating: '85', tag: 'Popular', tagColor: 'bg-orange-600', players: '3.1k', link: '#', isNew: false, isPopular: true },
     { id: 4, title: 'Puzzle Master', description: 'Solve challenging puzzles', category: 'Puzzles', image: '/images/featured-puzzle.png', rating: '90', tag: 'Trending', tagColor: 'bg-blue-600', players: '1.5k', link: '#', isNew: false, isPopular: true },
     { id: 5, title: 'Typing Race', description: 'Race against time, type fast', category: 'Typing', image: '/images/recommended-typing.png', rating: '79', tag: 'Hot', tagColor: 'bg-red-600', players: '2.1k', link: '#', isNew: true, isPopular: false },
