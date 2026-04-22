@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="mentalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#be185d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#mentalGrad)"/>
+  
+  <!-- Brain outline (simplified) -->
+  <circle cx="100" cy="80" r="30" fill="none" stroke="white" stroke-width="2" opacity="0.8"/>
+  <path d="M 70 80 Q 70 50 100 50 Q 130 50 130 80" fill="#f472b6" opacity="0.3" stroke="white" stroke-width="2"/>
+  
+  <!-- Lightning bolts representing speed -->
+  <g transform="translate(240, 70)" fill="white">
+    <polygon points="0,-20 -5,-5 5,-5 0,20 5,5 -5,5" opacity="0.9"/>
+  </g>
+  
+  <!-- Numbers flying around -->
+  <text x="160" y="100" font-size="24" font-weight="bold" fill="white" opacity="0.7">9</text>
+  <text x="280" y="110" font-size="28" font-weight="bold" fill="white" opacity="0.8">×</text>
+  <text x="320" y="90" font-size="24" font-weight="bold" fill="white" opacity="0.7">9</text>
+  
+  <!-- Equals -->
+  <text x="200" y="150" font-size="20" font-weight="bold" fill="white">= 81</text>
+  
+  <!-- Speed indicator -->
+  <text x="280" y="160" font-size="14" fill="white" opacity="0.8">FAST!</text>
+</svg>
